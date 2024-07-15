@@ -160,6 +160,19 @@
       /* image color change in css */
       filter: grayscale(100%);
     }
+    /* footer styles */
+    .footer{
+      max-width: 1440px;
+      margin: 20px auto;
+      border-radius: 8px;
+      
+     
+      
+    }
+    .footer-description{
+      text-align: center;
+    }
+   
 
   /* responsive media query */
 
@@ -192,6 +205,9 @@
       .our-features{
         margin-left: 20px;
       }
+      .footer{
+       margin: 40px auto;
+      }
   
     
     }
@@ -212,6 +228,9 @@
       }
       .fact-content{
         margin-left: 80px;
+      }
+      .footer{
+        justify-items: center;
       }
       
   
